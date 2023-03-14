@@ -1,0 +1,5 @@
+Faker==17.6.0
+geographiclib==2.0
+geopy==2.3.0
+python-dateutil==2.8.2
+six==1.16.0
