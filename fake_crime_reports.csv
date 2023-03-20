@@ -1,11 +1,11 @@
 Category,Latitude,Longitude,Location Name,Date
-vandalism,-1.3258015,36.8499327,"KFC, Mombasa Road, Diamond Park Estate, South B, Nairobi, 00507, Kenya",2023-02-06
+vandalism,-1.3916968545380648,36.78256757039038,"Ole kasasi Police Post",2023-02-06
 assault,-1.2264379,36.8690699,"PCEA Church - Thome, Church Drive, Thome, Ruaraka, Nairobi, 00618, Kenya",2022-07-28
 burglary,-1.30325275,36.826367685558694,"Nairobi, Kenya",2023-02-14
 assault,-1.2650224,36.7405679,"Big Square, Waiyaki Way, Kangemi, Nairobi, 00604, Kenya",2022-11-02
-theft,-1.2493303186190357,36.77831031926035,"Kyuna Close, Kitisuru, Nairobi, 11403, Kenya",2022-09-03
+theft,-1.3995338093732812,36.78867879552202,"Africa Nazarene University",2022-09-03
 fraud,-1.315524,36.9097388,"Embakasi village, NSSF Nyayo Embakasi, Nairobi, 00515, Kenya",2022-04-04
-burglary,-1.2475896111182985,36.75471750075599,"Loresho Crescent, Loresho, Nairobi, 00604, Kenya",2022-08-27
+burglary,-1.3882667230189731,36.76727056488189,"Maasai Lodge",2022-08-27
 burglary,-1.2748516154460383,36.84212923323989,"Pumwani, Nairobi, 00100, Kenya",2022-09-08
 assault,-1.2343195913977802,36.96020032057236,"Nairobi, 00520, Kenya",2022-04-09
 theft,-1.3506335,36.8222912,"3, Southern Bypass, Diamond Park Estate, South C, Nairobi, 00517, Kenya",2022-05-29
@@ -16,10 +16,10 @@ theft,-1.2542647,36.7921727,"Spring Valley Coffee, Shanzu Road, Spring Valley, N
 fraud,-1.2845614,36.8138007,"Embassy of the United Arab Emirates, Nyerere Road, Upper Hill, Nairobi, 46464, Kenya",2023-02-24
 fraud,-1.3173605126861172,36.77313774661748,"Southern Bypass, Langata, Lenana, Nairobi, 00517, Kenya",2022-10-04
 burglary,-1.270318375669163,36.92979329149246,"Kayole, Nairobi, 55145, Kenya",2023-02-26
-theft,-1.3269113337071752,36.67019798513598,"2nd Drive, Embulbul, Nairobi, Kenya",2022-08-09
+theft,-1.3959892047631761,36.76177740084285,"Naivas Supermarket-Maiyan Mall",2022-08-09
 assault,-1.3231769,36.8795604,"Imara Daima, Nairobi, 00515, Kenya",2022-11-12
 burglary,-1.334184750513177,36.7648386057258,"Nairobi, 00517, Kenya",2022-04-02
-fraud,-1.3192099286916747,36.6692172536353,"Nairobi, Kenya",2022-07-17
+fraud,-1.3747094163627982,36.77387952786635,"Elephant Nursery",2022-07-17
 burglary,-1.2391156350831438,36.94374301775449,"Upper Chokaa, Nairobi, 55145, Kenya",2022-06-03
 assault,-1.259218,36.8655353,"Alliant Junior Academy, Mbuthia Lane, Ngei 2B, Ruaraka, Nairobi, 00611, Kenya",2023-03-14
 vandalism,-1.3188367,36.8278221,"South C, Nairobi, 00200, Kenya",2022-06-27
