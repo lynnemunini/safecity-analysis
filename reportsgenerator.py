@@ -10,7 +10,7 @@ geolocator = Nominatim(user_agent="crime_report", timeout=10000)
 # Define Nairobi's latitude and longitude boundaries
 nairobi_bounds = {
     'north': -1.160757,
-    'south': -1.364849,
+    'south': -1.450000, # Updated value to include Ongata Rongai's latitude
     'east': 36.996153,
     'west': 36.654915
 }
@@ -27,7 +27,7 @@ with open('fake_crime_reports.csv', mode='w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(['Category', 'Latitude', 'Longitude', 'Location Name', 'Date'])
 
-    for i in range(100000):  # Generate 100000 fake reports
+    for i in range(2000):  # Generate 2000 fake reports
         # Generate a random crime category and location
         category = random.choice(crime_categories)
         location = geolocator.reverse(
