@@ -27,7 +27,7 @@ with open('fake_crime_reports.csv', mode='w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(['Category', 'Latitude', 'Longitude', 'Location Name', 'Date'])
 
-    for i in range(2000):  # Generate 2000 fake reports
+    for i in range(1000):  # Generate 1000 fake reports
         # Generate a random crime category and location
         category = random.choice(crime_categories)
         location = geolocator.reverse(
