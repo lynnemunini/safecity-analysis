@@ -22,10 +22,26 @@ crime_categories = ['theft', 'burglary', 'assault', 'vandalism', 'fraud']
 start_date = datetime.date.today() - datetime.timedelta(days=365)
 end_date = datetime.date.today()
 
+# Define gender categories
+gender_categories = ["male", "female"]
+
+# Define age between 18 and 60
+age_categories = [i for i in range(18, 61)]
+
+# Suspect's Gender
+suspect_gender = ["male", "female"]
+
+# Define demographic categories
+demographic_categories = ["poor", "rich", "middle class"]
+
+# Define the weather categories
+weather_categories = ["sunny", "rainy", "cloudy", "windy"]
+
+
 # Generate fake crime reports and write to a CSV file
 with open('fake_crime_reports.csv', mode='w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(['Category', 'Latitude', 'Longitude', 'Location Name', 'Date'])
+    writer.writerow(['Category', 'Latitude', 'Longitude', 'Location Name', 'Date', "Victim Gender", "Victim Age", "Suspect Gender", "Demographic", "Weather"])
 
     for i in range(1000):  # Generate 1000 fake reports
         # Generate a random crime category and location
@@ -45,5 +61,21 @@ with open('fake_crime_reports.csv', mode='w', newline='') as file:
         # Generate a random date within the specified timeframe
         date = faker.date_between(start_date=start_date, end_date=end_date)
 
+        # Generate a random gender
+        gender = random.choice(gender_categories)
+
+        # Generate a random age
+        age = random.choice(age_categories)
+
+        # Generate a random suspect's gender
+        suspect = random.choice(suspect_gender)
+
+        # Generate a random demographic
+        demographic = random.choice(demographic_categories)
+
+        # Generate a random weather
+        weather = random.choice(weather_categories)
+
+
         # Write the report to the CSV file
-        writer.writerow([category, location.latitude, location.longitude, location.address, date])
+        writer.writerow([category, location.latitude, location.longitude, location.address, date, gender, age, suspect, demographic, weather])
