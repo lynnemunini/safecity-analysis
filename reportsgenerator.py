@@ -57,11 +57,8 @@ with open('fake_crime_reports.csv', mode='w', newline='') as file:
                  random.uniform(nairobi_bounds['west'], nairobi_bounds['east']))
             )
 
-        # If the location is within Ongata Rongai, Multimedia University or Ole Kasasi, generate 5-20 reports else generate 1-3 reports
-        if location.address.find('Ongata Rongai') != -1 or location.address.find('Multimedia University') != -1 or location.address.find('Ole Kasasi') != -1:
-            reports = random.randint(5, 10)
-        else:
-            reports = random.randint(1,2)
+        
+        reports = random.randint(10,30)
 
         # Generate the reports
         for j in range(reports):
