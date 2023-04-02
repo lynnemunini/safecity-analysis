@@ -1,4 +1,4 @@
-# 🚨 Welcome to the SafeCity Data Analysis Repository 🚨
+# 🚨 SafeCity Data Analysis Repository 🚨
 
 This repository is responsible for analyzing crime reports, with the aim of identifying common patterns and providing insights to help identify high-risk areas and predict the likelihood of crimes happening in specific locations. The analysis is done using a dataset of crime reports from the city of Nairobi.
 
@@ -25,7 +25,7 @@ The data used for this project is contained in a CSV file named `fake_crime_repo
     Demographic
     Weather
 
-📈 Results
+## 📈 Results
 
 The analysis performed on the data revealed interesting insights into crime patterns in the city of Nairobi. We were able to identify the most common types of crimes reported, the areas with the highest crime rates, and the demographic profiles of victims and suspects. Based on the analysis, we also made predictions about future crime trends.
 
