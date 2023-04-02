@@ -27,7 +27,7 @@ The data used for this project is contained in a CSV file named `fake_crime_repo
 
 ## 📈 Results
 
-The analysis performed on the data revealed interesting insights into crime patterns in the city of Nairobi. We were able to identify the most common types of crimes reported, the areas with the highest crime rates, and the demographic profiles of victims and suspects. Based on the analysis, we also made predictions about future crime trends.
+The analysis performed on the data revealed interesting insights into crime patterns in the city of Nairobi. I was able to identify the most common types of crimes reported. Additionally, I was able to predict the likelihood of crimes happening in specific locations.
 
 ## 📚 Repository Structure
 
@@ -41,7 +41,6 @@ The analysis performed on the data revealed interesting insights into crime patt
 ## 🌐 Links
 
 Here is the link to the GitHub repository with the SafeCity Android app: [SafeCity Android App](https://github.com/lynnemunini/safecity)
-
 
 
 ## 📜 License
