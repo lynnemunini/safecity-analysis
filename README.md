@@ -8,7 +8,7 @@ This project utilizes data analysis techniques to investigate crime patterns and
 
 ## ⚠️ Important Note
 
-The data used in this project is purely fictional and was generated using the Faker and GeoPy libraries. This is a school project and is intended solely as a proof of concept. Please do not use the data for any other purpose.
+The data used in this project is purely fictional and was generated using the Faker and GeoPy libraries. This is intended solely as a proof of concept. Please do not use the data for any other purpose.
 
 ## 📊 Data
  
